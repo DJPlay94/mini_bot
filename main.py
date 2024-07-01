@@ -9,6 +9,9 @@ command_info = [
     "1. random_pass - выводит рандомный пароль (можно самостоятельно указать длину пароля)",
     "2. add - сложение двух чисел",
     "3. spam - спам бот"
+
+
+    
 ]
 
 bot = commands.Bot(command_prefix='Kodland-', intents=intents)
