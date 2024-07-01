@@ -35,6 +35,7 @@ async def spam(ctx, spam_count=10):
 async def mem(ctx):
     with open('images/mem1.jpg', 'rb') as f:
         # В переменную кладем файл, который преобразуется в файл библиотеки Discord!
+        # test
         picture = discord.File(f)
    # Можем передавать файл как параметр!
     await ctx.send(file=picture)
